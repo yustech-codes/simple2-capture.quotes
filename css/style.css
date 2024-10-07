@@ -1,0 +1,35 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+#author {
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+#activity {
+    background-color: rgb(0, 63, 158);
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: none;
+}
